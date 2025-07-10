@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Microlearning Mahasiswa</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-gray-100">
+  <header class="bg-gradient-to-r from-blue-700 to-indigo-600 text-white py-12 shadow">
+    <div class="container mx-auto px-4 text-center">
+      <h1 class="text-4xl font-extrabold mb-2">Microlearning Mahasiswa</h1>
+      <p class="text-lg">Belajar Ringkas & Interaktif di Luar Jam Kuliah</p>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-4 py-10">
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-gray-800 mb-4 text-center">Topik Pembelajaran</h2>
+      <div class="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <!-- Topik 1 -->
+        <div class="bg-white rounded-xl shadow hover:shadow-lg transition p-6">
+          <h3 class="font-bold text-lg flex items-center mb-2">📘 Etika Digital</h3>
+          <p class="text-sm text-gray-600 mb-3">Cara bersikap sopan dan aman di dunia maya.</p>
+          <a href="materi/etika-digital.pdf" class="text-blue-600 hover:underline text-sm" target="_blank">📄 Lihat PDF</a>
+          <br>
+          <iframe class="mt-3 w-full aspect-video rounded" src="https://www.youtube.com/embed/Sdwgjya0UaU" title="Video Etika Digital" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <!-- Topik 2 -->
+        <div class="bg-white rounded-xl shadow hover:shadow-lg transition p-6">
+          <h3 class="font-bold text-lg flex items-center mb-2">🤖 Literasi AI Dasar</h3>
+          <p class="text-sm text-gray-600 mb-3">Memahami konsep dasar AI untuk dunia kerja masa depan.</p>
+          <a href="materi/literasi-ai.pdf" class="text-blue-600 hover:underline text-sm" target="_blank">📄 Lihat PDF</a>
+          <br>
+          <iframe class="mt-3 w-full aspect-video rounded" src="https://www.youtube.com/embed/_FcHPrRY5zg" title="Video Literasi AI" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <!-- Topik 3 -->
+        <div class="bg-white rounded-xl shadow hover:shadow-lg transition p-6">
+          <h3 class="font-bold text-lg flex items-center mb-2">⏱️ Manajemen Waktu</h3>
+          <p class="text-sm text-gray-600 mb-3">Strategi mengelola waktu belajar mandiri dengan efektif.</p>
+          <a href="materi/manajemen-waktu.pdf" class="text-blue-600 hover:underline text-sm" target="_blank">📄 Lihat PDF</a>
+          <br>
+          <iframe class="mt-3 w-full aspect-video rounded" src="https://www.youtube.com/embed/fYUpIX9l5F0" title="Video Manajemen Waktu" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-gray-800 text-gray-100 text-center text-sm py-4 mt-10">
+    &copy; 2025 - Website Microlearning oleh <strong>Erik Deputra</strong> | LATSAR CPNS
+  </footer>
+</body>
+</html>
